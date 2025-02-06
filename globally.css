@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 70px;
+    background-color: #000;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700s;
+
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+#sub-nav span svg{
+    fill: #ffff;
+    height: 1.7em;
+}
+
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+}
+
